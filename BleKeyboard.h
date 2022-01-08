@@ -99,7 +99,8 @@ const uint8_t KEY_NUM_PERIOD = 0xEB;
 
 typedef uint8_t MediaKeyReport[2];
 
-const MediaKeyReport KEY_MEDIA_NEXT_TRACK = {1, 0};
+//const MediaKeyReport KEY_MEDIA_NEXT_TRACK = {1, 0};
+const MediaKeyReport KEY_MEDIA_POWER = {1, 0};
 const MediaKeyReport KEY_MEDIA_PREVIOUS_TRACK = {2, 0};
 const MediaKeyReport KEY_MEDIA_STOP = {4, 0};
 const MediaKeyReport KEY_MEDIA_PLAY_PAUSE = {8, 0};
